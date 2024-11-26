@@ -84,7 +84,7 @@ extension CountryClassStringExtension on Country {
       g7Member: $g7Member,
       g20Member: $g20Member,
       isoShortNameByLocale: ${json.encode(isoShortNameByLocale)},
-      subdivision: ${subdivision.toClassString()},
+      subdivision: [],
       )''';
   }
 }
